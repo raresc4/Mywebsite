@@ -18,9 +18,11 @@ ul,ol{
 }
 
 .Principal{
-  margin-top: 10%;
+  display: flexbox;
+  margin-top: 5%;
   margin-left: 10%;
   width: 100%;
+  padding-bottom: 30%;
 }
 
 .Header1{
@@ -37,7 +39,16 @@ li{
   margin-bottom: 10px;
 }
 
+.Text{
+  float:left;
+}
+
 .Imagine{
-  margin-left: 800px;
+  float: right;
+  padding-right: 20%;
   border-radius: 50%;
+}
+
+.Logos{
+  margin: 0.5%;
 }
